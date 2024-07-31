@@ -1,0 +1,63 @@
+.centered-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-div-in-div {
+  text-align: center;
+}
+
+#text-background-color {
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  border-radius: 1.7rem;
+  padding: 1.5rem;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+#clickme-button {
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #0d0d0d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+#clickme-button:disabled {
+  pointer-events: none;
+}
+
+#clickme-button:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+#clickme-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
